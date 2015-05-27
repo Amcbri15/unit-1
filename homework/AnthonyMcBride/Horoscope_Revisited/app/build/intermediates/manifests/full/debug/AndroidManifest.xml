@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.c4q_anthony_mcbride.horoscope_revisited"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.Aquarius"
+            android:label="@string/aquarius_title" >
+        </activity>
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.Pisces"
+            android:label="@string/pisces_title" >
+        </activity>
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.Aries"
+            android:label="@string/aries_title" >
+        </activity>
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.Taurus"
+            android:label="@string/taurus_title" >
+        </activity>
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.Gemini"
+            android:label="@string/gemini_title" >
+        </activity>
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.Cancer"
+            android:label="@string/cancer_title" >
+        </activity>
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.Leo"
+            android:label="@string/leo_title" >
+        </activity>
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.Virgo"
+            android:label="@string/virgo_title" >
+        </activity>
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.Libra"
+            android:label="@string/libra_title" >
+        </activity>
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.Scorpio"
+            android:label="@string/scorpio_title" >
+        </activity>
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.Sagittarius"
+            android:label="@string/sagittarius_title" >
+        </activity>
+        <activity
+            android:name="com.example.c4q_anthony_mcbride.horoscope_revisited.Capricorn"
+            android:label="@string/capricorn_title" >
+        </activity>
+    </application>
+
+</manifest>

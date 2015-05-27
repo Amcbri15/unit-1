@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/c4q-anthony-mcbride/Desktop/unit-1/exercises/activity-lifecycle1/app/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecda966839090a41b29a9239d44bafc06fdadb87">
+        <dex dex="/Users/c4q-anthony-mcbride/Desktop/unit-1/exercises/activity-lifecycle1/app/build/intermediates/pre-dexed/debug/android-support-v13-03b39656b9ce70fb7c32adf9462c5be1970eef25.jar" />
+    </item>
+
+</items>
